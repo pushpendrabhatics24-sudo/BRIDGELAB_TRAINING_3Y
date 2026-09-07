@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushpendra's World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d4ed8, #2563eb);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        nav {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e0e7ff;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 25px auto;
+            display: grid;
+            grid-template-columns: 2.5fr 1fr;
+            gap: 25px;
+            padding: 0 20px;
+        }
+
+        main {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+        }
+
+        section, article {
+            margin-bottom: 25px;
+        }
+
+        h2, h3 {
+            color: #1e3a8a;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        aside {
+            background: #eff6ff;
+            padding: 20px 22px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+        }
+
+        aside ul {
+            padding-left: 18px;
+            line-height: 1.8;
+        }
+
+        aside a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        aside a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #e2e8f0;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 760px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pushpendra's World</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main id="home">
+            <section>
+                <h2>Introduction</h2>
+                <p>
+                    Hello! I am <strong>Pushpendra Bhati</strong>, a student of <strong>Section SC</strong>
+                    with <strong>Roll No. 43</strong>. I am passionate about learning web development,
+                    exploring new technologies, and improving my coding skills every day.
+                </p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I enjoy reading, understanding new concepts, and practicing HTML and CSS to build
+                    meaningful web pages. My goal is to become a confident developer and create useful
+                    digital experiences for people.
+                </p>
+            </section>
+
+            <article id="blog">
+                <h2>My First Blog</h2>
+                <p>
+                    This is my very first blog post. I am learning the fundamentals of HTML and web
+                    development step by step. Each new concept helps me become more confident and creative
+                    in building pages that are both informative and visually appealing.
+                </p>
+                <p>
+                    I believe practice is the key to success. By writing clean code, using semantic HTML,
+                    and understanding page structure, I can produce better and more professional web projects.
+                </p>
+            </article>
+        </main>
+
+        <aside id="contact">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blog">My Blog</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pushpendra Bhati. All rights reserved.</p>
+    </footer>
+</body>
+</html>
