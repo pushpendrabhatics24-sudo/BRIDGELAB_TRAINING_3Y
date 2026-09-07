@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 - Pushpendra Bhati</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f7ff;
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #1d4ed8);
+            color: white;
+            text-align: center;
+            padding: 28px 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.3rem;
+        }
+
+        nav {
+            margin-top: 14px;
+        }
+
+        nav a {
+            color: #dbeafe;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 25px auto;
+            display: grid;
+            grid-template-columns: 2.5fr 1fr;
+            gap: 25px;
+            padding: 0 20px;
+        }
+
+        main, aside {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(15, 23, 42, 0.08);
+        }
+
+        main {
+            padding: 28px 30px;
+        }
+
+        section, article {
+            margin-bottom: 25px;
+        }
+
+        h2, h3 {
+            color: #1e3a8a;
+        }
+
+        p, li {
+            line-height: 1.8;
+            font-size: 1.04rem;
+        }
+
+        aside {
+            background: #eff6ff;
+            padding: 22px 20px;
+        }
+
+        aside ul {
+            padding-left: 18px;
+        }
+
+        aside a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        aside a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #e2e8f0;
+            text-align: center;
+            padding: 18px 10px;
+        }
+
+        @media (max-width: 760px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pushpendra Bhati</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main id="home">
+            <section>
+                <h2>Introduction</h2>
+                <p>
+                    Hello! I am <strong>Pushpendra Bhati</strong>, a student of <strong>Section SC</strong>
+                    with <strong>Roll No. 43</strong>. I am learning web development and improving my
+                    understanding of HTML, CSS, and design structure every day.
+                </p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I enjoy learning new technologies, reading, and practicing coding with dedication.
+                    I believe regular effort and consistency are the keys to becoming a skilled developer.
+                    My goal is to build useful digital experiences and keep improving my technical skills.
+                </p>
+            </section>
+
+            <article id="skills">
+                <h2>My Learning Focus</h2>
+                <p>
+                    In web development, I am focusing on semantic HTML structure, proper styling, and user-friendly
+                    page layouts. These elements help in creating websites that are cleaner, more readable, and easier to maintain.
+                </p>
+                <ul>
+                    <li>HTML structure and semantic elements</li>
+                    <li>CSS for styling and responsiveness</li>
+                    <li>Page layout and proper content organization</li>
+                    <li>Practice and consistency in coding</li>
+                </ul>
+            </article>
+        </main>
+
+        <aside id="contact">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pushpendra Bhati. All rights reserved.</p>
+    </footer>
+</body>
+</html>
